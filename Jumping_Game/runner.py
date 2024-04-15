@@ -74,7 +74,7 @@ while True:
                 pygame.quit()
                 sys.exit()
             if event.type == obstacle_timer:
-                obstacle.add(Obstacle(choice(["snail", "snail", "snail", "fly"])))
+                obstacle.add(Obstacle(choice(["snail", "fly", "fly", "fly"])))
 
         else:
             if event.type == pygame.QUIT:
